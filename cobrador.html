@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cobrador</title>
+        <link rel="stylesheet" href="diseño.css">
+    </head>
+    <body>
+
+    <form>
+        <h2>Funciones de Cobrador</h2>
+        <fieldset>
+            <legend>Cobro</legend>
+        <label for="txtCantidad">Catidad a cobrar</label>
+        <input type="number" id="txtCantidad">
+        <label for="txtUsuario">Nombre del usuario</label>
+        <input type="text" id="txtApellidoP">
+        <button type="button" id="Todos">Todos</button>
+        </fieldset>
+        <fieldset>
+            <legend>Pago</legend>
+        <label for="txtUsuario">Nombre del usuario</label>
+        <input type="text" id="txtUsuario">
+        <label for="txtPago">Cantidad de pago</label>
+        <input type="number" id="txtPago">
+        </fieldset>
+        <fieldset>
+            <legend>Consultar</legend>
+        <label for="txtUsuario">Nombre del usuario</label>
+        <input type="text" id="txtUsuario">
+        <label for="txtFecha">Fecha</label>
+        <input type="text" id="txtFecha">
+        <button type="button" id="Monto recibido">Monto recibido</button>
+        <button type="button" id="Monto total">Monto total</button>
+        
+        </fieldset>
+    </form>
+    <form id="form2">
+        <h2>Regista un cliente</h2>
+        <fieldset>
+            <legend>Datos personales</legend>
+        <label for="txtNombre">Nombre/s</label>
+        <input type="text" id="txtNombre">
+        <label for="txtApellidoP">Primer Apellido</label>
+        <input type="text" id="txtApellidoP">
+        <label for="txtApellidoM">Segundo Apellido</label>
+        <input type="text" id="txtApellidoM">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+        <label for="txtTelefono">Telefono</label>
+        <input type="text" id="txtTelefono">
+        <label for="txtCorreo">Correo electronico</label>
+        <input type="text" id="txtCorreo">
+        </fieldset>
+
+        <button type="button" id="btnSave">guardar</button>
+        <button type="reset" id="btnReset">cancelar</button>
+        <button type="button" id="btnRestore">recuperar</button>    
+    </form>
+    </body>
+
+</html>
